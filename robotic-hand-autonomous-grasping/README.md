@@ -1,4 +1,4 @@
-# 🤖 Enhanced Autonomous Robotic Hand
+#  Enhanced Autonomous Robotic Hand
 
 This is an advanced Python + Arduino-based project that allows a robotic hand to automatically detect non-living objects and grasp them using sophisticated computer vision algorithms.
 
@@ -12,7 +12,7 @@ This is an advanced Python + Arduino-based project that allows a robotic hand to
 - **Robust Error Handling**: Automatic retry mechanisms and graceful error recovery
 - **Arduino-Controlled Robotic Gripper**: Smooth servo control with status feedback
 
-## 🧠 Advanced Algorithms
+##  Advanced Algorithms
 
 ### **Object Detection**
 - **Motion-Based Detection**: Frame differencing with morphological operations
@@ -61,7 +61,7 @@ robotic-hand-autonomous-grasping/
     └── gripper_control.ino     # ENHANCED: Improved servo control
 ```
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### **1. Install Dependencies**
 ```bash
@@ -83,7 +83,7 @@ python train_classifier.py --samples 2000
 - Connect servo motor to pin 9
 - Ensure webcam is connected and working
 
-## 🎯 Usage
+##  Usage
 
 ### **Basic Usage**
 ```bash
@@ -119,7 +119,7 @@ python train_classifier.py --test-images image1.jpg image2.jpg
 | `z` | Toggle grasp zone |
 | `i` | Toggle debug info |
 
-## 📊 Performance Features
+##  Performance Features
 
 ### **Real-time Monitoring**
 - **FPS Counter**: Live frame rate monitoring
@@ -136,7 +136,7 @@ python train_classifier.py --test-images image1.jpg image2.jpg
 - Error count
 - Processing performance
 
-## 🔧 Hardware Requirements
+##  Hardware Requirements
 
 ### **Essential Components**
 - Arduino board (Uno, Nano, or similar)
@@ -150,7 +150,7 @@ python train_classifier.py --test-images image1.jpg image2.jpg
 - **Arduino**: Uno R3 or Nano
 - **Power**: 5V power supply for servo
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 
 ### **Object Detection Testing**
 - Place various objects in camera view
@@ -170,7 +170,7 @@ python train_classifier.py --test-images image1.jpg image2.jpg
 - Monitor grasp success rate
 - Test stability requirements
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### **Algorithm Parameters**
 - **Detection Threshold**: 0.4 (adjustable)
@@ -185,7 +185,7 @@ python train_classifier.py --test-images image1.jpg image2.jpg
 - **Error Recovery**: Automatic retry mechanisms
 - **Resource Cleanup**: Proper resource management
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### **Common Issues**
 1. **Camera not detected**: Check camera index in main.py
@@ -200,11 +200,11 @@ Enable debug information with `i` key to see:
 - Grasp decision criteria
 - Performance metrics
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for:
 - Algorithm improvements
@@ -212,7 +212,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 - Performance optimizations
 - Documentation updates
 
-## 📚 Future Enhancements
+##  Future Enhancements
 
 - **Deep Learning Integration**: YOLO or SSD object detection
 - **3D Vision**: Depth camera integration
